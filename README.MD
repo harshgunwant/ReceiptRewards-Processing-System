@@ -140,6 +140,14 @@ go tool cover -html=coverage.out
 
 ---
 
+##Future Improvements
+
+1. Add persistent storage (e.g., a database) to store receipts permanently.
+2. Enhance input validation with stricter rules.
+4. Implement authentication and authorization for API endpoints, that is the user who has uploaded a receipt should only be able to get the points for that receipt.
+
+---
+
 ## Project Structure
 ```plaintext
 .
@@ -171,13 +179,7 @@ go tool cover -html=coverage.out
 
 ---
 
-##Future Improvements
 
-1. Add persistent storage (e.g., a database) to store receipts permanently.
-2. Enhance input validation with stricter rules.
-4. Implement authentication and authorization for API endpoints, that is the user who has uploaded a receipt should only be able to get the points for that receipt.
-
----
 
 
 
