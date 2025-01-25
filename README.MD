@@ -122,19 +122,21 @@ A simple web service that processes receipts and calculates reward points based 
 1. Run all test cases for the application:
 ```bash
 go test ./internal/... ./utils/...
-```bash
+```
+
+---
 
 ###Generate coverage Report
 
 1. Generate a coverage file
 ```bash
 go test ./... -coverprofile=coverage.out
-```bash
+```
 
 2. Generate an HTML report for a detailed visual report
 ```bash
 go tool cover -html=coverage.out
-```bash
+```
 
 ---
 
