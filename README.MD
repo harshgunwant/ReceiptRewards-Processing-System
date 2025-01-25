@@ -116,6 +116,7 @@ A simple web service that processes receipts and calculates reward points based 
     ├── pointRules.go       # Logic for calculating points
     └── pointRules_test.go  # Tests for point calculation logic
 
+```plaintext
 ---
 
 ## Setup Instructions
