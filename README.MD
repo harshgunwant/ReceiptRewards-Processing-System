@@ -141,6 +141,7 @@ go tool cover -html=coverage.out
 ---
 
 ## Project Structure
+```plaintext
 .
 ├── README.md
 ├── cmd
