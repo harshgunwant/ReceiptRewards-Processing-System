@@ -83,8 +83,6 @@ A simple web service that processes receipts and calculates reward points based 
    - 6 points if the day of the purchase is odd.
 7. **Purchase Time**:
    - 10 points if the purchase time is between `2:00 PM` and `4:00 PM`.
-8. **Large Language Model Bonus**:
-   - 5 points if the total is greater than `$10.00`.
 
 ---
 
