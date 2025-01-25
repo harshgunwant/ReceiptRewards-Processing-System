@@ -117,3 +117,68 @@ A simple web service that processes receipts and calculates reward points based 
     ├── idGenerator_test.go # Tests for ID generator
     ├── pointRules.go       # Logic for calculating points
     └── pointRules_test.go  # Tests for point calculation logic
+
+---
+
+## Setup Instructions
+
+### Requirements
+
+- Go 1.19 or later
+
+### Steps to Setup and Run
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/receipt-processor.git
+    cd receipt-processor
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    go mod tidy
+    ```
+
+3. **Run the application**:
+    ```bash
+    go run cmd/server.go
+    ```
+
+4. **Test the endpoints**:
+    Use Postman, curl, or a browser to access the endpoints.
+
+---
+
+## Running Tests and Generating Coverage
+
+### Run Unit Tests
+
+Run all test cases for the application:
+```bash
+go test ./internal/... ./utils/...
+```bash
+
+###Generate coverage Report
+
+1. Generate a coverage file
+```bash
+go test ./... -coverprofile=coverage.out
+```bash
+
+2. Generate an HTML report for a detailed visual report
+```bash
+go tool cover -html=coverage.out
+```bash
+
+---
+
+##Future Improvements
+
+1. Add persistent storage (e.g., a database) to store receipts permanently.
+2. Enhance input validation with stricter rules.
+4. Implement authentication and authorization for API endpoints, that is the user who has uploaded a receipt should only be able to get the points for that receipt.
+
+
+
+
+
