@@ -96,8 +96,8 @@ A simple web service that processes receipts and calculates reward points based 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/receipt-processor.git
-    cd receipt-processor
+    git clone https://github.com/harshgunwant/ReceiptRewards-Processing-System.git
+    cd ReceiptRewards-Processing-System
     ```
 
 2. **Install dependencies**:
@@ -139,8 +139,6 @@ go tool cover -html=coverage.out
 ---
 
 ## Project Structure
-
-```plaintext
 .
 ├── README.md
 ├── cmd
